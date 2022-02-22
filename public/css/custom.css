@@ -1,0 +1,107 @@
+/**
+ * For now, only a solid color is used for the image.
+ * Will add suitable background image soon.
+ */
+.fullscreen {
+    height: 100vh;
+    /* background-image: url(enter your photo url here!); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-color: #a5a0ea;
+    margin-bottom: 30px;
+}
+
+.main_content {
+    margin-top:10%;
+    padding-top :3%;
+    padding-bottom: 3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-color:whitesmoke;
+}
+
+.main_alternate {
+    margin-top:7.5%;
+    margin-left:5%;
+    padding-top :3%;
+    padding-bottom: 3%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-color:none;
+}
+
+.page_content {
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 5%;
+    height :100%;
+    padding-top :3%;
+    padding-bottom :3%;
+    background-size: cover;
+    background-color:none;
+}
+
+.page_content2 {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 5%;
+    height :100%;
+    width:40%;
+    padding-top :1%;
+    background-size: cover;
+    /* background-color:rgba(20, 20, 20, .8); */
+    background-color:none;
+    /* border-style:ridge;
+    border-width: 0.1%;
+    border-color: rgba(255, 255, 255, .3); */
+}
+
+.text_content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title_text{
+    font-weight: bold;
+    font-size:48px;
+    margin-bottom: 25px;
+    color:whitesmoke
+
+}
+
+.loading_text{
+    font-weight: bold;
+    font-size:24px;
+    text-align: center;
+    margin-top:5%;
+    color:whitesmoke
+}
+
+.home_common_text{
+    font-size: 16px;
+    color:whitesmoke
+}
+
+.common_text{
+    font-size: 14px;
+    color:whitesmoke
+}
+
+.table_styled{
+    margin:2% 5% 2% 5%;
+    /* opacity:0.8; */
+}
+
+.contact-us{
+    margin:2% 5% 2% 5%;
+}

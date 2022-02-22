@@ -1,0 +1,7 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+CHANGELOG.md export-ignore
